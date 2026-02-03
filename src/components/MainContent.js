@@ -19,10 +19,11 @@ const MainContent = () => {
             />
             <h2>Mertcan İNCİOĞULLARI</h2>
             <p>Full Stack Developer</p>
+            <a href='Https://mertcaninciogullari.com'>mertcaninciogullari.com</a>
             <p>
               Mobile App development, Online Marketing websites, Web applications, 
               Web services, Cross-platform development, Google Flutter project management, 
-              Play Store services.
+              Play Store services, Google (ADS,SEO,GA4,Business)
             </p>   <div className="social-links">
         <a href="https://www.linkedin.com/in/mertcan-incioğulları-14a23325a/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={30} style={{ margin: '0 10px' }} />
@@ -45,20 +46,30 @@ const MainContent = () => {
         </p>
       </div>
       <div class="container-fluid" className='introducearea'> <h6>Let me introduce  myself briefly</h6>
-      <p>After graduating from the vocational 
-        high school of tourism and hotel management, I turned to the computer field, which I was always 
-        interested in, and I settled in the computer programming department at the university.
-         then I did not graduate for some special reasons, I studied until the last semester.
-         During my university years, I took java, OOP, C#, asp.net mvc, c ++, python courses.
-         then I tried to develop myself individually in the field of software, I am working.
-          but I have not yet had a corporate experience. The work I have done is more individual or 
-          I have provided software support to help my circle of friends.
-         among the things I can do are server management database management, 
-         site management setup. as well as I focused more on mobile myself. 
-         I have had individual studies in areas such as Google firebase, flutter, firebase admin-sdk react,
-          node.js, dart. as well as I have had studies such as publishing applications to the play store, 
-          publishing, optimization compatibility troubleshooting. recently, you can see the applications 
-          I have written from scratch on github. 
+      <p>After graduating from a vocational high school of Tourism and Hotel Management, 
+I shifted my focus to software development — a field I had been interested in for many years — 
+and enrolled in the Computer Programming department at university, where I completed my studies up to the final semester.
+
+During my academic years, I built a solid foundation in programming concepts such as 
+Object-Oriented Programming and worked with languages including Java, C#, C++, Python, and ASP.NET MVC.
+
+Over time, I focused on developing myself independently as a software developer. 
+I have mainly worked on individual projects and provided software support for real-world use cases 
+within my professional network.
+
+I have hands-on experience in building applications **from scratch to production**, including:
+- application architecture and development  
+- server and database management  
+- deployment, publishing, and maintenance  
+- performance optimization and compatibility troubleshooting  
+- basic advertising and growth-related processes  
+Although I have experience publishing mobile applications with Flutter and Dart, 
+my core expertise is centered on **web applications**, where I have built and maintained 
+**production-level, live websites** using technologies such as 
+Next.js, React, Node.js, Strapi, and framework.
+I have published applications to the **Google Play Store** and handled the entire lifecycle 
+from development to release, maintenance, and optimization.  
+My most recent work includes applications written from scratch, which can be reviewed on my Github Pages
 
 </p></div>
           </div>
@@ -75,7 +86,7 @@ const MainContent = () => {
                 <div className="education-item">
                     <span className="bullet">•</span>
                     <h6>Anadolu University</h6>
-                    <p>Computer Programming-distance(2024-2026)</p>
+                    <p>Computer Programming-distance(2024-2027)</p>
                     <p>(continues)</p>
 
               
@@ -84,7 +95,7 @@ const MainContent = () => {
                     <span className="bullet">•</span>
                     <h6>İstanbul Eğitim Akademi</h6>
                     <p>FullStack software engineer training </p>
-                    <p>(continues)</p>
+                    <p>(completed)</p>
 
             </div>
             </div>
@@ -132,35 +143,94 @@ const MainContent = () => {
                     <h6>Mobile app development with flutter</h6>
                     <p>BTK akademi (2024)</p>
                 </div>
+                   <div className="education-item">
+                    <span className="bullet">•</span>
+                    <h6>Figma-Teknokent Pendik </h6>
+                    <p>BTK akademi (2025)</p>
+                </div>
                 </div>
                 <div  class="container" className='seperator'> <hr  />
+</div><h2 className="mt-4" style={{ paddingTop: "40px" }}>Skills</h2>
+
+<div className="row mt-3">
+
+  {/* Mobile */}
+  <div className="col-md-4 mb-4">
+    <h5>Mobile</h5>
+    <ul className="list-unstyled">
+      <li>Flutter</li>
+      <li>Dart</li>
+    </ul>
+  </div>
+
+  {/* Frontend */}
+  <div className="col-md-4 mb-4">
+    <h5>Frontend</h5>
+    <ul className="list-unstyled">
+      <li>React</li>
+      <li>Next.js</li>
+      <li>HTML / CSS</li>
+      <li>Tailwind</li>
+            <li>bootstrap</li>
+
+    </ul>
+  </div>
+
+  {/* Backend & CMS */}
+  <div className="col-md-4 mb-4">
+    <h5>Backend & CMS</h5>
+    <ul className="list-unstyled">
+      <li>Node.js</li>
+      <li>Strapi</li>
+      <li>Mailgun</li>
+    </ul>
+  </div>
+
+  {/* Database */}
+  <div className="col-md-4 mb-4">
+    <h5>Database</h5>
+    <ul className="list-unstyled">
+      <li>SQL</li>
+      <li>NoSQL</li>
+      <li>MongoDB Atlas</li>
+    </ul>
+  </div>
+
+  {/* DevOps & Hosting */}
+  <div className="col-md-4 mb-4">
+    <h5>DevOps & Hosting</h5>
+    <ul className="list-unstyled">
+      <li>Netlify</li>
+      <li>Vercel</li>
+      <li>GitHub Pages</li>
+    </ul>
+  </div>
+
+  {/* Version Control */}
+  <div className="col-md-4 mb-4">
+    <h5>Version Control</h5>
+    <ul className="list-unstyled">
+      <li>Git</li>
+      <li>Git CLI</li>
+      <li>GitHub</li>
+    </ul>
+  </div>
+
+  {/* Marketing & Analytics */}
+  <div className="col-md-12 mb-4">
+    <h5>Marketing & Analytics</h5>
+    <ul className="list-unstyled d-flex flex-wrap gap-3">
+      <li>Google Ads</li>
+      <li>Google Analytics (GA4)</li>
+      <li>Google Search Console</li>
+      <li>Meta Business</li>
+      <li>Ahrefs</li>
+      <li>Semrush</li>
+      <li>Wix</li>
+    </ul>
+  </div>
+
 </div>
-            <h2 className="mt-4" style={{ paddingTop: '40px' }}>Skills</h2>
-            <div className="row">
-                <div className="col-md-6">
-                    <div className="d-flex align-items-center mb-2">
-                        <FaFire className="me-2" /> <span>Flutter</span>
-                    </div>
-                    <div className="d-flex align-items-center mb-2">
-                        <SiDart className="me-2" /> <span>Dart</span>
-                    </div>
-                    <div className="d-flex align-items-center mb-2">
-                        <FaDatabase className="me-2" /> <span>SQL</span>
-                    </div>
-                    
-                </div>
-                <div className="col-6">
-                    <div className="d-flex align-items-center mb-2">
-                        <FaReact className="me-2" /> <span>React</span>
-                    </div>
-                    <div className="d-flex align-items-center mb-2">
-                        <FaNodeJs className="me-2" /> <span>Node.js</span>
-                    </div>
-                    <div className="d-flex align-items-center mb-2">
-                        <IoLogoHtml5 className="me-2" /> <span>HTML</span>
-                    </div>
-                </div>
-            </div>
         </div>
         </div>
 
